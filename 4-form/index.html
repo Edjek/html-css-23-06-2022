@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <div>
+        <!-- Un formulaire se compose de la balise <form></form> qui va entourer tous les champs -->
+        <form>
+            <div>
+                <!-- Un champ de formulaire se compose d'un <label> et de son <input> -->
+                <!-- Pour lier les deux, l'attribut for="" et id="" doivent avoir la même valeur et être unique dans le formulaire -->
+                <label for="name">nom</label>
+                <input type="text" id="name">
+            </div>
+
+            <div>
+                <label for="mdp">password</label>
+                <input type="password" id="mdp">
+            </div>
+
+            <div>
+                <label for="mail">email</label>
+                <input type="email" id="mail">
+            </div>
+
+            <div>
+                <label for="date">date</label>
+                <input type="date" id="date">
+            </div>
+
+            <div>
+                <label for="texte">texte</label>
+                <textarea id="texte"></textarea>
+            </div>
+
+            <div>
+                <!-- Les inputs de type checkbox, radio, select, doivent avoir un attribut value="" afin de pouvoir récupérer leur valeur par defaut -->
+                <p>Quel sport pratiquez-vous?</p>
+                <label for="escalade">grimpe</label>
+                <input type="checkbox" id="escalade" value="escalade">
+                <label for="foot">foot</label>
+                <input type="checkbox" id="foot" value="football">
+            </div>
+
+            <div>
+                <!-- Les input de type radio on un attribut de plus name="" -->
+                <!-- Ils doivent avoir la même valeur pour ne pouvoir valider qu'un seul choix -->
+                <label for="homme">homme</label>
+                <input type="radio" id="homme" value="homme" name="sexe">
+                <label for="femme">femme</label>
+                <input type="radio" id="femme" value="femme" name="sexe">
+            </div>
+
+            <div>
+                <label for="transport">Moyen de transport</label>
+                <select id="transport">
+                    <option value="voiture">car</option>
+                    <option value="velo">vélo</option>
+                </select>
+            </div>
+
+            <div>
+                <!-- IMPORTANT un form doit avoir un input type="submit" pour valider le formulaire -->
+                <input type="submit" value="Valider">
+                <input type="reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
