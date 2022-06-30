@@ -12,9 +12,8 @@ h1 {
 }
 
 h2 {
-    color: #4169E1;
+    color: #4169e1;
 }
-
 
 /* On peut selectionner des balises spécifiques grâce aux class en utlisant le . */
 /* Consequences tous les element qui ont cette class seront modifiés */
