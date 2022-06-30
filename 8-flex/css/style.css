@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+.container {
+    /* * { display: flex; } permet d'avoir un impact sur le comportement de tous les enfants direct */
+    display: flex;
+
+    /* * { flex-direction: row} valeur par defaut, choisi le sens du positionnement */
+    /* ? flex-direction: column; */
+
+    justify-content: space-around;
+    /* ? flex-start | center | flex-end | space-around | space-between*/
+    
+    /* Permet de gérer l'alignement vertical */
+    align-items: center;
+    /* ? flex-start | center | flex-end */
+
+    /* * Si les elements n'ont pas la place, ils se mettent en dessous les uns des autres au fur et à mesure */
+    flex-wrap: wrap;
+    /* ? no-wrap */
+
+    /* * Permet de mettre de l'espace en tous les enfants direct */
+    /* ? Plus besoin de mettre une marge sur chaque element enfant */
+    gap: 10px;
+
+    background-color: #4caf50;
+    min-height: 500px;
+    margin: 20px;
+
+    text-align: center;
+}
+
+.item {
+    background-color: #3498db;
+    width: 150px;
+    height: 150px;
+}

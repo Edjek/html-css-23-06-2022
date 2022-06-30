@@ -18,7 +18,7 @@ h2 {
 /* On peut selectionner des balises spécifiques grâce aux class en utlisant le . */
 /* Consequences tous les element qui ont cette class seront modifiés */
 .subtitle-h2 {
-    color: red;
+    color: #de4f4f;
 }
 
 .subtitle {

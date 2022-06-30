@@ -4,50 +4,80 @@
     box-sizing: border-box;
 }
 
-body {}
+body {
+    color: #fff;
+}
 
 h1 {
-    background-color: green;
+    background-color: rgb(62, 145, 62);
+    color: #fff;
     text-align: center;
     width: 500px;
-    margin: 50px;
+    margin: 50px auto;
 }
 
 .container {
-    background-color: orange;
-    /* valeur par defaut */
+    /* { background-color: } permet de mettre une couleur de fond */
+    background-color: rgb(83, 92, 254);
+    color: #fff;
+
+    /* La valeur par defaut dun element block est { display: block; }*/
     display: block;
-    /* Hauteur */
-    height: 100px;
+
     /* Largeur */
-    width: 200px;
-    /* Marge */
-    /* margin-top: ;
-    margin-right: ;
-    margin-bottom: ;
-    margin-left: ; */
-    margin: 100px;
-    margin: 50px 200px;
-    margin: 40px 30px 30px 50px;
-    /* margin: auto; */
+    width: 300px;
+    /* Hauteur */
+    height: 200px;
 
-    /* border: 2px solid black; */
-    border-radius: 10px;
-    box-shadow: 4px 4px 15px #555;
-    /* padding-top: ;
-    padding-right: ;
-    padding-bottom: ;
-    padding-left: ; */
-    padding: 20px;
+    /* Margin sert à mettre de la marge exxterieur */
+
+    /* margin-top: ; */
+    /* margin-right: ; */
+    /* margin-bottom: ; */
+    /* margin-left: ; */
+    /* margin: 40px 30px 30px 50px; */
+    /* margin: 50px 200px; */
+    /* margin: 100px; */
+
+    /* { margin: auto; } permet de centrer le block */
+    margin: 50px auto;
+
+    /* Padding sert à mettre la marge interieure */
+
+    /* padding-top: ; */
+    /* padding-right: ; */
+    /* padding-bottom: ; */
+    /* padding-left: ; */
+    padding: 40px 30px 30px 50px;
     padding: 10px 20px;
-    padding: 40px 30px 300px 50px;
+    padding: 20px;
 
+    /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
+    border: 1px solid black;
+
+    /* { border-radius: } permet d'arrondir les angles */
+    border-radius: 5px;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 4px 4px 15px #555;
 }
 
 .round {
-    background-color: red;
-    height: 50px;
-    width: 50px;
+    /* La propriété border-radius avec la valeur 50% permet de faire des cercles */
     border-radius: 50%;
+    background-color: rgb(235, 88, 88);
+    height: 200px;
+    width: 200px;
+    margin: auto;
+
+    /* On applique la propriété flex pour centrer le texte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+span {
+    /* La valeur par defaut dun element inline est { display: inline; }*/
+    display: inline;
+
+}
