@@ -8,7 +8,9 @@ body {}
 
 h1 {
     background-color: green;
-    width: 50%;
+    text-align: center;
+    width: 500px;
+    margin: 50px;
 }
 
 .container {
@@ -26,11 +28,12 @@ h1 {
     margin-left: ; */
     margin: 100px;
     margin: 50px 200px;
-    margin: 40px 30px 300px 50px;
+    margin: 40px 30px 30px 50px;
+    /* margin: auto; */
 
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
-
+    box-shadow: 4px 4px 15px #555;
     /* padding-top: ;
     padding-right: ;
     padding-bottom: ;
