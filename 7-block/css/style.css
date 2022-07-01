@@ -27,9 +27,12 @@ h1 {
     /* Largeur */
     width: 300px;
     /* Hauteur */
-    height: 200px;
 
-    /* Margin sert à mettre de la marge exxterieur */
+    height: 200px;
+    min-height: 200px;
+
+
+    /* Margin sert à mettre de la marge exterieur */
 
     /* margin-top: ; */
     /* margin-right: ; */
