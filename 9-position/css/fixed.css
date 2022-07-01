@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1;
+
+    background-color: #2980b9;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container2 {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+
+    background-color: #f39c12;
+    width: 200px;
+    height: 200px;
+    border-radius: 1000%;
+}
+
+.definition {
+    margin: 50px;
+    padding: 20px;
+    background-color: #52be80;
+}
+
+.definition2 {
+    text-align: center;
+}

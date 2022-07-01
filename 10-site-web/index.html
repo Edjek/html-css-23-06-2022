@@ -5,22 +5,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index.css" />
         <title>Mon Super Site Web</title>
     </head>
 
     <body>
+        <!-- La <div class="up"> a la { position: fixed; }, il sort du flux et est placé en bas à droite-->
+        <div class="up">
+            <!-- Le lien a l'attribut href="#up", il redirige sur l'élément qui a l'attribut id="up" -->
+            <a href="#up">UP</a>
+        </div>
         <header>
-            <h1>Mon super site web</h1>
+            <h1>Paris</h1>
             <nav>
                 <a href="index.html">Accueil</a>
+                <a href="view/voyage.html">Voyage</a>
                 <a href="view/contact.html">Contact</a>
-                <a href="a-propos.html">A propos</a>
+                <a href="view/a-propos.html">A propos</a>
             </nav>
         </header>
 
-        <div class="main">
-            <div class="hero-section">
+        <div class="main" id="up">
+            <div class="hero">
+                <h2>Visitez la plus belle ville du monde</h2>
+                <h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio quasi voluptatem perspiciatis harum.
+                </h3>
+                <a href="#" class="button">Decouvrez-nous</a>
+            </div>
+
+            <div class="section-1">
                 <h2>Mon super sous titre</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -35,7 +50,7 @@
                 </p>
             </div>
 
-            <div class="section2">
+            <div class="section-2">
                 <h2>Un autre super sous titre</h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.

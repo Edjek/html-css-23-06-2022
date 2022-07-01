@@ -8,14 +8,6 @@ body {
     color: #fff;
 }
 
-h1 {
-    background-color: rgb(62, 145, 62);
-    color: #fff;
-    text-align: center;
-    width: 500px;
-    margin: 50px auto;
-}
-
 .container {
     /* { background-color: } permet de mettre une couleur de fond */
     background-color: rgb(83, 92, 254);
@@ -56,13 +48,21 @@ h1 {
     padding: 20px;
 
     /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
-    border: 1px solid black;
+    border: 3px solid black;
 
     /* { border-radius: } permet d'arrondir les angles */
     border-radius: 5px;
 
     /* { box-shadow: }  permet de créer une ombre */
     box-shadow: 4px 4px 15px #555;
+}
+
+h1 {
+    background-color: rgb(62, 145, 62);
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
 }
 
 .round {
@@ -79,8 +79,17 @@ h1 {
     align-items: center;
 }
 
+
+.definition {
+    margin: 50px;
+    color: #333;
+    text-align: center;
+}
+
 span {
     /* La valeur par defaut dun element inline est { display: inline; }*/
     display: inline;
+
+    font-weight: bold;
 
 }
