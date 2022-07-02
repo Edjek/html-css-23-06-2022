@@ -1,106 +1,109 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Introduction</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML - Introduction</title>
-</head>
+    <body>
+        <!-- Je suis un commentaire HTML, je n'apparait pas sur la page du navigateur! -->
 
-<body>
-    <!-- Je suis un commentaire HTML, je n'apparait pas sur la page du navigateur! -->
+        <!-- Les titres s'ecrivent dans des balises de h1 à h6  -->
+        <div>
+            <h1>Titre super important</h1>
+            <h2>Titre important (sous-titre)</h2>
+            <h3>titre moins important</h3>
+            <h4>titre pas trop important</h4>
+            <h5>Titre pas important</h5>
+            <h6>Titre vraiment pas important du tout</h6>
+        </div>
 
-    <!-- Les titres s'ecrivent dans des balises de h1 à h6  -->
-    <div>
-        <h1>Titre super important</h1>
-        <h2>Titre important (sous-titre)</h2>
-        <h3>titre moins important</h3>
-        <h4>titre pas trop important</h4>
-        <h5>Titre pas important</h5>
-        <h6>Titre vraiment pas important du tout</h6>
-    </div>
+        <!-- La balise <hr> affiche une ligne, elle définit une pause thématique dans une page HTML -->
+        <hr />
 
-    <!-- La balise <hr> affiche une ligne, elle définit une pause thématique dans une page HTML -->
-    <hr>
+        <div>
+            <h2>Les paragraphes</h2>
 
-    <div>
-        <h2>Les paragraphes</h2>
+            <p>
+                Pour créer des <strong>paragraphes</strong> en HTML, nous allons
+                utiliser l’élément p.
+            </p>
+            <p>
+                Pour chaque nouveau <span>paragraphe</span> , un retour à la
+                ligne va être créé <em>automatiquement</em> et affiché par votre
+                navigateur <br />
+                (exactement comme c’était le cas avec les titres).
+            </p>
+        </div>
 
-        <p>
-            Pour créer des <strong>paragraphes</strong> en HTML, nous allons utiliser l’élément p.
-        </p>
-        <p>
-            Pour chaque nouveau <span>paragraphe</span> , un retour à la ligne va être créé <em>automatiquement</em> et
-            affiché par votre navigateur <br>
-            (exactement comme c’était le cas avec les titres).
+        <hr />
 
-        </p>
+        <div>
+            <h2>Les images</h2>
 
-    </div>
+            <!-- Si l'image manque, la valeur de l'attribut alt s'affiche -->
+            <img src="img/bart.png" alt="je suis une image de bart" />
+        </div>
 
-    <hr>
+        <hr />
 
-    <div>
-        <h2>Les images</h2>
+        <div>
+            <h2>Les listes</h2>
 
-        <!-- Si l'image manque, la valeur de l'attribut alt s'affiche -->
-        <img src="img/bart.png" alt="je suis une image de bart">
-    </div>
+            <h3>Les personnages des Simpsons</h3>
+            <!-- liste non ordonnée (unordered list) -->
+            <ul>
+                <li>
+                    <a href="https://www.wikiwand.com/fr/Homer">Homer</a>
+                </li>
+                <li>Bart</li>
+                <li>Lisa</li>
+                <li>Marge</li>
+                <li>Maggie</li>
+            </ul>
 
-    <hr>
+            <h3>Mes films préférés</h3>
+            <!-- liste ordonnée (ordered list) -->
+            <ol>
+                <li>Ben hur</li>
+                <li>Avatar</li>
+                <li>Batman</li>
+            </ol>
+        </div>
 
-    <div>
-        <h2>Les listes</h2>
+        <hr />
 
-        <h3>Les personnages des Simpsons</h3>
-        <!-- liste non ordonnée (unordered list) -->
-        <ul>
-            <li>
-                <a href="https://www.wikiwand.com/fr/Homer">Homer</a>
-            </li>
-            <li>Bart</li>
-            <li>Lisa</li>
-            <li>Marge</li>
-            <li>Maggie</li>
-        </ul>
+        <div>
+            <h2>Les liens</h2>
 
-        <h3>Mes films préférés</h3>
-        <!-- liste ordonnée (ordered list) -->
-        <ol>
-            <li>Ben hur</li>
-            <li>Avatar</li>
-            <li>Batman</li>
-        </ol>
-    </div>
+            <!--  Balises <a> (anchor) ce sont les liens cliquables-->
+            <a href="page.html">Je mène sur une autre page du site</a>
+            <br />
 
-    <hr>
+            <!-- lien vers un site externe -->
+            <a href="https://www.doranco.fr/"
+                >Je mène vers la site de Doranco</a
+            >
+            <br />
 
-    <div>
-        <h2>Les liens</h2>
+            <!-- lien pour envoyer un mail -->
+            <a href="mailto:monmail@gmail.com"
+                >Je peux enoyer un mail à : monmail@gmail.com</a
+            >
+            <br />
 
-        <!--  Balises <a> (anchor) ce sont les liens cliquables-->
-        <a href="page.html">Je mène sur une autre page du site</a>
-        <br>
+            <!-- lien pour lancer un appel téléphonique -->
+            <a href="tel:13371337"
+                >Je peux lancer un appel, Tél: 01 34 62 76 XX</a
+            >
 
-        <!-- lien vers un site externe -->
-        <a href="https://www.doranco.fr/">Je mène vers la site de Doranco</a>
-        <br>
-
-        <!-- lien pour envoyer un mail -->
-        <a href="mailto:monmail@gmail.com">Je peux enoyer un mail à : monmail@gmail.com</a>
-        <br>
-
-        <!-- lien pour lancer un appel téléphonique -->
-        <a href="tel:13371337">Je peux lancer un appel, Tél: 01 34 62 76 XX</a>
-
-        <br>
-        <!-- Une image aussi peut être cliquable -->
-        <a href="page.html">
-            <img src="img/bart.png" alt="">cliquez sur Bart!
-        </a>
-    </div>
-
-</body>
-
+            <br />
+            <!-- Une image aussi peut être cliquable -->
+            <a href="page.html">
+                <img src="img/bart.png" alt="" />cliquez sur Bart!
+            </a>
+        </div>
+    </body>
 </html>

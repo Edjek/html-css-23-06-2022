@@ -10,7 +10,7 @@ body {
 
 .container {
     /* { background-color: } permet de mettre une couleur de fond */
-    background-color: rgb(83, 92, 254);
+    background-color: #3498db;
     color: #fff;
 
     /* La valeur par defaut dun element block est { display: block; }*/
@@ -58,7 +58,7 @@ body {
 }
 
 h1 {
-    background-color: rgb(62, 145, 62);
+    background-color: #3e913e;
     color: #fff;
     text-align: center;
     width: 500px;
@@ -68,7 +68,7 @@ h1 {
 .round {
     /* La propriété border-radius avec la valeur 50% permet de faire des cercles */
     border-radius: 50%;
-    background-color: rgb(235, 88, 88);
+    background-color: #eb5858;
     height: 200px;
     width: 200px;
     margin: auto;
