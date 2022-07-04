@@ -9,3 +9,6 @@ https://coolors.co/
 
 <!-- Pour partager du CSS -->
 https://codepen.io/dihcar-cesar
+
+<!-- Pour vous exercer aux flexbox -->
+https://flexboxfroggy.com/#fr
